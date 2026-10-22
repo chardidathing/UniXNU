@@ -1,5 +1,7 @@
 name: macOS build
 
+# the fork registers this dispatch-only workflow on the first push that touches it, hence this line
+
 on:
   workflow_dispatch:
     inputs:
