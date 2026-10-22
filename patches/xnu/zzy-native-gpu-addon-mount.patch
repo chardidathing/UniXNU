@@ -367,3 +367,16 @@ index 412f9ec..4466a64 100644
  
  	error = bindfs_vfs_getlowerattr(vnode_mount(lowerrootvp), &vfa, ctx);
  	if (error == 0) {
+
+diff --git a/bsd/miscfs/bindfs/bindfs.h b/bsd/miscfs/bindfs/bindfs.h
+--- a/bsd/miscfs/bindfs/bindfs.h
++++ b/bsd/miscfs/bindfs/bindfs.h
+@@ -82,6 +82,8 @@
+ 
+ #define BINDM_CACHE 0x0001
+ #define BINDM_CASEINSENSITIVE 0x0000000000000002
++/* set by the boot-time gpu addon mount (bind_vfsops.c); no reader yet, the mount only records it */
++#define BINDM_FORCE_ROOT 0x0000000000000004
+ 
+ typedef int (*vop_t)(void *);
+ 
