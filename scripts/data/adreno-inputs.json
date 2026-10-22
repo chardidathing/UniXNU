@@ -98,6 +98,10 @@
       "drivers/gpu/drm/msm/registers/adreno/adreno_common.xml": {
         "bytes": 17188,
         "sha256": "f898e4eee3de5f92d25597f003e5550a24fe50552d25555d6916dcd1b922d6f6"
+      },
+      "drivers/gpu/drm/msm/registers/adreno/a6xx_perfcntrs.xml": {
+        "bytes": 31055,
+        "sha256": "e9030cfe9aeff35ddddd05e4f58c487394d0decc30198750a77a75dc346b54ff"
       }
     }
   },

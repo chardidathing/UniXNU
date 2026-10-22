@@ -15,7 +15,7 @@
 	url = https://github.com/UniXNU/NativeAES.git
 [submodule "drivers/NativeAdreno"]
 	path = drivers/NativeAdreno
-	url = https://github.com/UniXNU/NativeAdreno.git
+	url = https://github.com/chardidathing/NativeAdreno.git
 [submodule "drivers/NativeGeniSpi"]
 	path = drivers/NativeGeniSpi
 	url = https://github.com/UniXNU/NativeGeniSpi.git
@@ -45,7 +45,7 @@
 	url = https://github.com/UniXNU/NativeVirtioConsole.git
 [submodule "kits/AdrenoFirmware"]
 	path = kits/AdrenoFirmware
-	url = https://github.com/UniXNU/AdrenoFirmware.git
+	url = https://github.com/chardidathing/AdrenoFirmware.git
 [submodule "kits/AdrenoPM4"]
 	path = kits/AdrenoPM4
 	url = https://github.com/UniXNU/AdrenoPM4.git
